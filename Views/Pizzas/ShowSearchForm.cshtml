@@ -1,0 +1,24 @@
+﻿
+<h4>Cerca Pizza</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("ShowSearchResults", "Pizzas", FormMethod.Post))
+        {
+        <form asp-action="ShowSearchResults">
+            <div class="form-group">
+                <label for="SearchPhrase" class="control-label m-0"></label>
+                <input name="search" for="SearchPhrase" class="form-control m-0" action="post"/>
+            </div>
+            
+            <div class="form-group">
+               <div>
+
+               </div>
+                <input type="submit" value="Search" class="btn btn-primary my-3" />
+            </div>
+        </form>
+        }
+    </div>
+</div>
+

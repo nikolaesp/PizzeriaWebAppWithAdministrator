@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+  
+  text-decoration-color:inherit;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("https://img.freepik.com/premium-vector/pizza-ingredients-simple-seamless-pattern-white-gray-color-background-with-salami-cheese-mushroom-olive-basil-tomato-paprika-web-page-fill-wrapping-paper-backdrop_167184-459.jpg?w=996");
+}
+#cardpic {
+    width:350.4px;
+    max-height:230px;
+    overflow-y:hidden;
+}
+background-image{
+    opacity: 0.75;
+}
