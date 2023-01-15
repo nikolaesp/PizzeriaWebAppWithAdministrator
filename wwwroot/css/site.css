@@ -26,6 +26,9 @@ body {
     max-height:230px;
     overflow-y:hidden;
 }
-background-image{
+detail-spic{
+   max-width: 50vw;
+}
+background-image {
     opacity: 0.75;
 }
