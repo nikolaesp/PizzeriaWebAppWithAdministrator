@@ -40,7 +40,7 @@ namespace PizzasWebApp.Controllers
         public async Task<IActionResult> ShowSearchResults(IFormCollection form)
         {
            string search = form["search"];
- 
+
           return View("Index" , await _context.Pizza.Where(p => p.Name.ToLower().Contains(search.ToLower())).ToListAsync());
         }
 
